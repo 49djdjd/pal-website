@@ -1,3 +1,4 @@
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -31,4 +32,12 @@ body{
 }
 .defin{
     margin: 100px;
+}
+.pfp{
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+}
+/*used AI to help debug this*/
+.pfp.fade-in{
+    opacity: 1;
 }
