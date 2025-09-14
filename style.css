@@ -13,7 +13,7 @@ li a{
     text-decoration: none;;
 }
 li {
-    float:left;
+    float:right;
 }
 li a:hover{
     color:black;
@@ -27,8 +27,8 @@ body{
     margin-right:50px;
 }
 .text{
-    text-align: center;
-    margin-top:100px;
-
-
+    justify-content: right;
+}
+.defin{
+    margin: 100px;
 }
